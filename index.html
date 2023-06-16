@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Cent Nº 35</h1>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Contacto</a>
+            <a href="">Producto</a>
+            <a href="">Servicio</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Aqui puedes registrar a los usuarios</h1>
+        <form class="formularioUsuarios">
+            <div class="inputcontainer">
+                
+                <label for="Ingrese su nombre">Ingrese su nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre">
+            </div>
+            <div class="inputcontainer">
+                <label for="Ingerese su email">Ingerese su mail</label>
+                <input type="email" placeholder="Ingrese su email" id="email" name="email">
+            </div>
+            <div class="inputcontainer">
+                <label for="Ingrese su contraseña">Ingrese su contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" id="contrasena" name="contrasena">
+            </div>
+            <div class="inputcontainer"> 
+                <!-- usamos el select para tener uno con opciones cargado -->
+                <label for="Seleccione su provincia">Seleccione su provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Tierra del fuego">Tierra del fuego</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Cordoba">Cordoba</option>
+
+                </select>
+            </div>
+            <input type="submit" value="Registrar" class="btn-register">
+            <input type="reset" value="Resetear" class="btn-register">
+        </form>
+        <div id="contenedorusuarios">
+
+        </div>
+
+    </main>
+    <footer>
+
+        <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content:space-around;
+    
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li a:hover {
+    color: white;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #345877;
+    align-items: center;
+    height:auto;
+    
+
+}
+
+main form {
+    background-color: rgb(195, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    align-items: center;
+    margin: 6%;
+   
+    width: 50%;
+    height: 80%;
+    
+}
+.foto{
+    background-color: aqua;
+    display: flex;
+    justify-content:space-around;
+    height: 30px;
+    margin: 5px;
+    
+}
+input, #provincia{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#contenedorusuarios{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: bisque;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 40%;
+    align-self: center;
+    margin: 1%;
+}
+
+footer {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
